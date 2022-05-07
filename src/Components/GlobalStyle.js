@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components"
+import Bg from '../imgs/blurry.png';
 
 const GlobalStyle = createGlobalStyle`
 
@@ -12,10 +13,11 @@ const GlobalStyle = createGlobalStyle`
 
 body{
     background: #10101A;
+    /* background: #111827; */
 }
 
 button{
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: bold;
     cursor: pointer;
     padding: 1rem 2rem;
@@ -48,6 +50,7 @@ p{
 
 h4{
     font-weight: bold;
+    font-size: 2rem;
 }
 
 span{
