@@ -25,8 +25,8 @@ const AboutSection = () => {
            <p>I’m a Web Developer. Working with my hands to make magic happen on the internet.  </p>
            <button>Contact Me</button>
        </Description>
-           <Image>
-             <img src={Rup4} alt="Developer Img"/>
+           <Image className="">
+             <img className="p-5 " src={Rup4} alt="Developer Img"/>
            </Image>
     </ About>
     
@@ -41,29 +41,34 @@ const About = styled.div`
    display: flex;
    align-items: center;
    justify-content: space-between;
-   padding: 5rem 10rem;
+   padding:0rem 11rem 6rem 11rem;
    color: white;
 `
 
 const Description = styled.div`
-  
   h2{
     font-weight: lighter;
   }
 `
 
 const Image = styled.div`
-   flex: 1;
+
+   /* flex: 1; */
    background-size: cover;
-  img{
-    width: 45vh;
-    height: 45vh;
+   width: 50vh;
+    height:50vh;
     object-fit: cover;
     object-position: top;
-    border-radius: 50%;
     object-position: top;
-    border: 3px solid #65FEDA;
-  }  
+    
+
+    img{
+      border-bottom:6px solid red;
+      border-right:6px solid red;
+      /* border-left: cyan 6px solid; */
+    /* border-top: cyan 6px solid; */
+      /* border-radius: 1rem;   */
+    }
 `
 
 export default AboutSection;
