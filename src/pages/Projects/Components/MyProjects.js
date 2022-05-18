@@ -2,7 +2,11 @@ import React from 'react';
 import ProjectsCard from './ProjectsCard';
 import styled from 'styled-components';
 import BlackCodes from "../../../imgs/Bb.png";
-import Bc from "../../../imgs/Bc.png";
+import Css from "../../../imgs/css-styles.png";
+import shreebai from "../../../imgs/shreebai.png"
+import dhinga from "../../../imgs/Dhinga.png";
+import google from "../../../imgs/Google.png";
+import quiz from "../../../imgs/quizapp.png"
 
 const MyProjects = () => {
 
@@ -17,35 +21,35 @@ const MyProjects = () => {
     {
       title: "Strengthen reflex action",
       desc: "a statement or account giving the characteristics of someone or something : a descriptive",
-      img: Bc,
+      img: Css,
       link: "https://www.towergame.app/",
     },
 
     {
       title: "Strengthen reflex action",
       desc: "Description definition, a statement, picture in words, or account that describes; ",
-      img: BlackCodes,
+      img: shreebai,
       link: "https://www.towergame.app/",
     },
 
     {
       title: "Strengthen reflex action",
       desc: "Description definition, a statement, picture in words, or account that describes; ",
-      img: BlackCodes,
+      img: dhinga,
       link: "https://www.towergame.app/",
     },
 
     {
       title: "Strengthen reflex action",
       desc: "Description definition, a statement, picture in words, or account that describes; ",
-      img: BlackCodes,
+      img: google,
       link: "https://www.towergame.app/",
     },
 
     {
       title: "Strengthen reflex action",
       desc: "Description definition, a statement, picture in words, or account that describes; ",
-      img: BlackCodes,
+      img: quiz,
       link: "https://www.towergame.app/",
     },
 
@@ -53,7 +57,6 @@ const MyProjects = () => {
 
 
   return (
-    
     <>
     <Container>
         <span className=" text-justify font-light ml-[36rem]  text-6xl">Development</span>
@@ -69,11 +72,12 @@ const MyProjects = () => {
 
 const Container = styled.div`
 /* background-color: brown; */
-background: url("https://blackcodes.ml/imgs/Untitle4.png");
+background: url("https://portfoliorecreationshubhamthedev.netlify.app/static/media/home-bg.59b92434.svg");
+right: 400%;
 padding-top: 1rem;
 background-attachment: fixed;
 background-size: cover;
-background-repeat: no-repeat;
+/* scroll-behavior: smooth; */
 
 `
 

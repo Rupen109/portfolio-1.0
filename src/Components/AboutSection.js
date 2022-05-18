@@ -1,18 +1,16 @@
 import React from 'react';
 import styled from 'styled-components';
 import Rup4 from '../imgs/R4.png';
-// import home from '../imgs/home.svg';
 
 const AboutSection = () => {
   return (
        
        <About>
        <Description>
-         
            <div className='title'>
                <div className="hide">
-                 <span>Hi, There My Name is </span>
-                   <h2> Rupen Bhimani</h2>
+                 <span className="text-2xl"> Hi,There 👋 I'M</span>
+                   <h2> Rupen Bhimani,</h2>
                </div>
                <div className="hide">
                    <h2>Work To Make Your <span>Dreams</span> Come True
@@ -26,7 +24,7 @@ const AboutSection = () => {
            <button>Contact Me</button>
        </Description>
            <Image className="">
-             <img className="p-5 " src={Rup4} alt="Developer Img"/>
+             <img className="p-6" src={Rup4} alt="Developer Img"/>
            </Image>
     </ About>
     
@@ -37,18 +35,31 @@ const AboutSection = () => {
 
 const About = styled.div`
    min-height: 100vh;
+   background-attachment: fixed;
    width: 100%;
    display: flex;
    align-items: center;
    justify-content: space-between;
    padding:0rem 11rem 6rem 11rem;
    color: white;
+
+   ::before{
+    content: url("https://portfoliorecreationshubhamthedev.netlify.app/static/media/home-bg.59b92434.svg");
+    opacity: 0.3;
+    overflow: hidden;
+    position: absolute;
+    right: -10%;
+    z-index: -1;
+   }
+
 `
 
 const Description = styled.div`
   h2{
     font-weight: lighter;
   }
+
+ 
 `
 
 const Image = styled.div`
@@ -56,16 +67,23 @@ const Image = styled.div`
    /* flex: 1; */
    background-size: cover;
    width: 50vh;
-    height:50vh;
-    object-fit: cover;
-    object-position: top;
-    object-position: top;
-    
+   height:50vh;
+   object-fit: cover;
+   object-position: top;
+   object-position: top;
+   /* border-radius: 1rem; */
+   
+   
+   img{
+     border-bottom:7px solid red;
+      border-top:7px solid cyan;
+      backdrop-filter: blur(6px);
+      /* border-right:7px solid red;  */
+      /* border-left: cyan 7px solid; */
+      border-bottom-right-radius: 10rem;
+      border-top-left-radius: 10rem;
 
-    img{
-      border-bottom:6px solid red;
-      border-right:6px solid red;
-      /* border-left: cyan 6px solid; */
+      /* border-style: double; */
     /* border-top: cyan 6px solid; */
       /* border-radius: 1rem;   */
     }

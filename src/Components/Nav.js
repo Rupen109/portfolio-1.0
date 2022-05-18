@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import Logo from '../../../porfolio/src/imgs/Br (3).jpg';
+// import Logo from '../../../porfolio/src/imgs/Br (3).jpg';
+import Logo from '../../../porfolio/src/imgs/Br_3.png';
 import {Link} from 'react-router-dom';
 
 const Nav = () => {
@@ -8,6 +9,7 @@ const Nav = () => {
     <StyledNav>
         <Dd>
         <img className='logo'  src={Logo} alt='logo'></img>
+        
         </Dd>
         {/* <h1><a href="#">BHIMANI RUPEN</a></h1> */}
         <ul>
