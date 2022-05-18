@@ -145,7 +145,7 @@ const Services = styled.div`
     min-height: 100vh;
    display: flex;
    flex-direction: row;
-   padding: 5rem 10rem;
+   padding: 0rem 12rem 10rem;
    color: white;
 
    h2{

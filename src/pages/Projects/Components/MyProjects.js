@@ -7,6 +7,8 @@ import shreebai from "../../../imgs/shreebai.png"
 import dhinga from "../../../imgs/Dhinga.png";
 import google from "../../../imgs/Google.png";
 import quiz from "../../../imgs/quizapp.png"
+import { motion } from 'framer-motion';
+import { pageAnimation } from '../../../pages/Animation';
 
 const MyProjects = () => {
 
@@ -17,7 +19,7 @@ const MyProjects = () => {
       img: BlackCodes,
       link: "https://www.towergame.app/",
     },
-    
+
     {
       title: "Strengthen reflex action",
       desc: "a statement or account giving the characteristics of someone or something : a descriptive",
@@ -57,16 +59,16 @@ const MyProjects = () => {
 
 
   return (
-    <>
-    <Container>
-        <span className=" text-justify font-light ml-[36rem]  text-6xl">Development</span>
-        <div className="md:flex md:flex-wrap bg-BackG  mt-20">
-            {projects.map((projects, index) => (
-              <ProjectsCard title={projects.title}  key={index}  desc={projects.desc} img={projects.img} link={projects.link} />
-              ))}
+    <motion.div variants={pageAnimation} initial="hidden" animate="show">
+      <Container>
+        <span className=" text-justify font-light ml-[36rem]   text-6xl">Development</span>
+        <div className="md:flex md:flex-wrap bg-BackG  mt-6">
+          {projects.map((projects, index) => (
+            <ProjectsCard title={projects.title} key={index} desc={projects.desc} img={projects.img} link={projects.link} />
+          ))}
         </div>
-    </Container>
-</>
+      </Container>
+    </motion.div>
   );
 }
 

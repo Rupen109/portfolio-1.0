@@ -1,30 +1,48 @@
 import React from 'react';
 import styled from 'styled-components';
 import Rup4 from '../imgs/R4.png';
+import { motion } from 'framer-motion';
+import { titleAnim, photoAnim } from '../pages/Animation';
 
 const AboutSection = () => {
+  
+ const Button ={
+    show: {
+    
+      opacity: 1,
+      transition: {
+          ease:"easeOut",
+          duration:10,
+  
+      },
+    hidden:{
+      opacity: 0.1,
+      
+    },  
+ },
+ };
   return (
-       
+    
        <About>
        <Description>
-           <div className='title'>
+           <motion.div className='title'>
                <div className="hide">
                  <span className="text-2xl"> Hi,There 👋 I'M</span>
-                   <h2> Rupen Bhimani,</h2>
+                   <motion.h2 > Rupen Bhimani,</motion.h2>
                </div>
                <div className="hide">
-                   <h2>Work To Make Your <span>Dreams</span> Come True
-                   </h2>
+                   <motion.h2 variants={titleAnim} initial="hidden" animate="show">Work To Make Your <span>Dreams</span> Come True
+                   </motion.h2>
                </div>
                {/* <div className="hide">
                    <h2>True</h2>
                </div> */}
-           </div>
-           <p>I’m a Web Developer. Working with my hands to make magic happen on the internet.  </p>
-           <button>Contact Me</button>
+           </motion.div>
+           <motion.p>I’m a Web Developer. Working with my hands to make magic happen on the internet. </motion.p>
+           <motion.button variants={Button} initial="hidden" animate="show">Contact Me</motion.button>
        </Description>
            <Image className="">
-             <img className="p-6" src={Rup4} alt="Developer Img"/>
+             <motion.img variants={photoAnim} initial="hidden" animate="show" className="p-6" src={Rup4} alt="Developer Img"/>
            </Image>
     </ About>
     
@@ -45,7 +63,7 @@ const About = styled.div`
 
    ::before{
     content: url("https://portfoliorecreationshubhamthedev.netlify.app/static/media/home-bg.59b92434.svg");
-    opacity: 0.3;
+    opacity: 0.5;
     overflow: hidden;
     position: absolute;
     right: -10%;
