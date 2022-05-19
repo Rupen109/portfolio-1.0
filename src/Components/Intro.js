@@ -25,7 +25,7 @@ const Intro = () => {
 
                                     I also love doing open source development, I actively maintain various notable open source projects with over,
                                     30k+ stars on GitHub and 50m+ hits. It gives me a wonderful feeling of achievement and joy which I cannot explain in words.</p>
-                                <a className="inline-flex items-center">
+                                <a href className="inline-flex items-center">
                                     <span className="flex-grow flex flex-col pl-4">
                                         <span className="title-font text-2xl mb-16 font-extralight text-gray-900">Thank You 🙂</span>
                                         <span className=" text-3xl"></span>

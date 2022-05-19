@@ -178,17 +178,17 @@ const Line = styled.div`
    border-radius: 40px;
    
 `
-const Title = styled.div `
-   margin: 4rem 0rem -4rem -14rem;
+// const Title = styled.div `
+//    margin: 4rem 0rem -4rem -14rem;
    
-   h3{
-       display: flex;
-       color: #23d997;
-       flex-direction: row;
-       margin-left: 25rem;
+//    h3{
+//        display: flex;
+//        color: #23d997;
+//        flex-direction: row;
+//        margin-left: 25rem;
        
-   }
-`
+//    }
+// `
 
 const TitleLeft = styled.div`
      font-size: 30px;
