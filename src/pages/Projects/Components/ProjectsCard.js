@@ -14,7 +14,7 @@ const ProjectsCard = ({title,desc,img,link}) => {
               <div className="w-20 h-1 bg-cyan-400 rounded mt-2"></div>
               <p className="leading-relaxed text-lg mb-3">{desc}</p>
               <div className="flex items-center flex-wrap ">
-                <a className="text-white border border-  p-2 hover:bg-white inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                <a href className="text-white border border-  p-2 hover:bg-white inline-flex items-center md:mb-2 lg:mb-0">Learn More
                 </a>
               </div>
             </div>

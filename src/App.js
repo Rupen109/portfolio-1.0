@@ -5,9 +5,7 @@ import AboutUs from "./pages/AboutUs";
 import ContactMe from "./pages/ContactMe";
 import MyProjects from "./pages/Projects/Components/MyProjects";
 import {Routes,Route} from "react-router-dom";
-import AboutSection from "./Components/AboutSection";
-import ServicesSection from "./Components/ServicesSection";
-import FaqSection from "./Components/FaqSection";
+
 
 
 function App() {
