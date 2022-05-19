@@ -1,5 +1,4 @@
 import React from 'react';
-import styled from 'styled-components';
 import { motion } from 'framer-motion';
 import { pageAnimation } from '../pages/Animation';
 
@@ -34,7 +33,7 @@ const ContactMe = () => {
             </div>
           </div>
           <div class="p-2 w-full">
-            <button class="flex mx-auto text-white border-2  py-2 px-8 focus:outline-none text-lg">Submit</button>
+            <button class="flex mx-auto text-white border-2   py-2 px-8 focus:outline-none text-lg">Submit</button>
           </div>
           <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
           <p><a className="text-2xl text-[#22D091]" href="mailto:blackcodes109@gmail.com">blackcodes109@gmail.com</a></p>

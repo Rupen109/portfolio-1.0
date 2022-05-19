@@ -1,11 +1,9 @@
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  content: ["./src/**/*.{js,jsx,html,}"],
   theme: {
     extend: {
 
-    backgroundImage: {
-      BackG: "url(../../../porfolio/src/imgs/blurry.png)",
-    },
+  
     },    
   },
   plugins: [],

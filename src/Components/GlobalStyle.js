@@ -1,5 +1,5 @@
 import { createGlobalStyle } from "styled-components"
-import Bg from '../imgs/blurry.png';
+
 
 const GlobalStyle = createGlobalStyle`
 
