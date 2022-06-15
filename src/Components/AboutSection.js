@@ -77,7 +77,6 @@ const Description = styled.div`
     font-weight: lighter;
   }
 
- 
 `
 
 const Image = styled.div`
