@@ -51,7 +51,7 @@ const Skills = () => {
                     </div>
                   </div>
                   <div className="p- mx-auto lg:w-1/4">
-                    <div className="h-3/4 bg-[#10101A] border-y-2 shadow-lg shadow-slate-400 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                    <div className="h-3/4 bg-[#10101A] border-y-2 shadow-lg shadow-[#23D997] bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
                     <img className=" w-[3rem] h-[3rem] rounded-full mx-auto" src={js} alt="Developer Img" />
               
                       <h1 className="title-font sm:text-2xl mt-4 text-xl font-medium text-[#23D997] mb-3">Javascript</h1>
