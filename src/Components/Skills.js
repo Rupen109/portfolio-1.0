@@ -42,7 +42,7 @@ const Skills = () => {
                     <div className="h-3/4 bg-[#10101A] border-y-2 shadow-lg shadow-slate-400 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
                     <img className=" w-[3rem] h-[3rem] rounded-full mx-auto" src={fd} alt="Developer Img" />
 
-                      <h1 className="title-font sm:text-2xl mt-4 text-xl font-medium text-white mb-3">FrontEnd</h1>
+                      <h1 className="title-font sm:text-2xl mt-4 text-xl font-medium text-[#23D997] mb-3">FrontEnd</h1>
                       <p className="leading-relaxed text-xl text-[#CCCCCC] mb-3">I'm more front end focused and love to work with Reactjs as well as pure HTML, CSS.</p>
                       <a className="text-indigo-500 inline-flex items-center"/>Learn More
                        
@@ -54,7 +54,7 @@ const Skills = () => {
                     <div className="h-3/4 bg-[#10101A] border-y-2 shadow-lg shadow-slate-400 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
                     <img className=" w-[3rem] h-[3rem] rounded-full mx-auto" src={js} alt="Developer Img" />
               
-                      <h1 className="title-font sm:text-2xl mt-4 text-xl font-medium text-white mb-3">Javascript</h1>
+                      <h1 className="title-font sm:text-2xl mt-4 text-xl font-medium text-[#23D997] mb-3">Javascript</h1>
                       <p className="leading-relaxed text-xl text-[#CCCCCC] mb-3">I just extremely love javascript, I can’t even express how much I love javascript with just a few lines.</p>
                       <a className="text-indigo-500 inline-flex items-center"/>Learn More
                       <div className="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
@@ -67,7 +67,7 @@ const Skills = () => {
                     <div className="h-3/4 bg-[#10101A] border-y-2 shadow-lg shadow-slate-400 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
                     <img className=" w-[3rem] h-[3rem] rounded-full mx-auto" src={idea} alt="Developer Img" />
 
-                      <h1 className="title-font sm:text-2xl mt-4 text-xl font-medium text-white mb-3">Creative Coding</h1>
+                      <h1 className="title-font sm:text-2xl mt-4 text-xl font-medium text-[#23D997] mb-3">Creative Coding</h1>
                       <p className="leading-relaxed text-xl text-[#CCCCCC] mb-3">I love creative coding because I do both coding & designing. making beautiful art with code is very satisfying to me.</p>
                       <a className="text-indigo-500 inline-flex items-center" />Learn More
           
