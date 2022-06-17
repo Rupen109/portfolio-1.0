@@ -8,7 +8,7 @@ const Intro = () => {
         <>
             <section className="text-gray-600 body-font">
                 <div className="flex flex-wrap w-full flex-col items-center text-center">
-                    <h1 className="sm:text-7xl text-2xl mt-14 font-medium title-font mb-2 text-white">About <span>Me</span></h1>
+                    <h1 className="sm:text-7xl text-2xl font-medium title-font mb-2 text-white">About <span>Me</span></h1>
                     <div className="h-1 mt-9 w-32 bg-cyan-300 rounded"></div>
                 </div>
 

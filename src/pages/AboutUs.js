@@ -5,6 +5,7 @@ import Intro from '../Components/Intro';
 import ServicesSection from '../Components/ServicesSection';
 import { motion } from 'framer-motion';
 import { pageAnimation } from './Animation';
+import Skills from '../Components/Skills';
 
 const AboutUs = () => {
   return (
@@ -12,6 +13,7 @@ const AboutUs = () => {
       <motion.div variants={pageAnimation} initial="hidden" animate="show">
       <AboutSection />
       <ServicesSection />
+      <Skills />
       <Intro />
       <FaqSection />
       </motion.div>
