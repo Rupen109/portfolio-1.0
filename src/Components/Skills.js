@@ -39,11 +39,11 @@ const Skills = () => {
               <div className="container px-5  py-24 mt-4 mx-auto">
                 <div className="flex flex-wrap  -m-">
                   <div className="p- scroll mx-auto  lg:w-1/4">
-                    <div className="h-3/4 bg-black border-y-2 shadow-lg shadow-slate-400 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                    <div className="h-3/4 bg-[#10101A] border-y-2 shadow-lg shadow-slate-400 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
                     <img className=" w-[3rem] h-[3rem] rounded-full mx-auto" src={fd} alt="Developer Img" />
 
-                      <h1 className="title-font sm:text-2xl text-xl font-medium text-white mb-3">FrontEnd</h1>
-                      <p className="leading-relaxed text-xl text-white mb-3">I'm more front end focused and love to work with Reactjs as well as pure HTML, CSS.</p>
+                      <h1 className="title-font sm:text-2xl mt-4 text-xl font-medium text-white mb-3">FrontEnd</h1>
+                      <p className="leading-relaxed text-xl text-[#CCCCCC] mb-3">I'm more front end focused and love to work with Reactjs as well as pure HTML, CSS.</p>
                       <a className="text-indigo-500 inline-flex items-center"/>Learn More
                        
                       <div className="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
@@ -51,11 +51,11 @@ const Skills = () => {
                     </div>
                   </div>
                   <div className="p- mx-auto lg:w-1/4">
-                    <div className="h-3/4 bg-black border-y-2 shadow-lg shadow-slate-400 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                    <div className="h-3/4 bg-[#10101A] border-y-2 shadow-lg shadow-slate-400 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
                     <img className=" w-[3rem] h-[3rem] rounded-full mx-auto" src={js} alt="Developer Img" />
               
-                      <h1 className="title-font sm:text-2xl text-xl font-medium text-white mb-3">Javascript</h1>
-                      <p className="leading-relaxed text-xl text-white mb-3">I just extremely love javascript, I can’t even express how much I love javascript with just a few lines.</p>
+                      <h1 className="title-font sm:text-2xl mt-4 text-xl font-medium text-white mb-3">Javascript</h1>
+                      <p className="leading-relaxed text-xl text-[#CCCCCC] mb-3">I just extremely love javascript, I can’t even express how much I love javascript with just a few lines.</p>
                       <a className="text-indigo-500 inline-flex items-center"/>Learn More
                       <div className="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
         
@@ -64,11 +64,11 @@ const Skills = () => {
                     </div>
                   </div>
                   <div className="p- mx-auto lg:w-1/4">
-                    <div className="h-3/4 bg-black border-y-2 shadow-lg shadow-slate-400 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                    <div className="h-3/4 bg-[#10101A] border-y-2 shadow-lg shadow-slate-400 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
                     <img className=" w-[3rem] h-[3rem] rounded-full mx-auto" src={idea} alt="Developer Img" />
 
-                      <h1 className="title-font sm:text-2xl text-xl font-medium text-white mb-3">Creative Coding</h1>
-                      <p className="leading-relaxed text-xl text-white mb-3">I love creative coding because I do both coding & designing. making beautiful art with code is very satisfying to me.</p>
+                      <h1 className="title-font sm:text-2xl mt-4 text-xl font-medium text-white mb-3">Creative Coding</h1>
+                      <p className="leading-relaxed text-xl text-[#CCCCCC] mb-3">I love creative coding because I do both coding & designing. making beautiful art with code is very satisfying to me.</p>
                       <a className="text-indigo-500 inline-flex items-center" />Learn More
           
                       <div className="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
@@ -89,7 +89,7 @@ const Skills = () => {
 const Container = styled.div `
    ::before{
     content: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNzI1IiBoZWlnaHQ9Ijk5MCIgdmlld0JveD0iMCAwIDcyNSA5OTAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHg9IjY2My45NzMiIHk9Ii00NTQiIHdpZHRoPSIxMjcwLjAzIiBoZWlnaHQ9IjkzOSIgcng9IjE1IiB0cmFuc2Zvcm09InJvdGF0ZSg0NSA2NjMuOTczIC00NTQpIiBmaWxsPSJ1cmwoI3BhaW50MF9saW5lYXIpIi8+CjxkZWZzPgo8bGluZWFyR3JhZGllbnQgaWQ9InBhaW50MF9saW5lYXIiIHgxPSI2NjMuOTczIiB5MT0iLTQ1NCIgeDI9IjE1NTkuNjMiIHkyPSI3NTcuNDEyIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CjxzdG9wIHN0b3AtY29sb3I9IiM2QTk4RjAiLz4KPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjNDk2MURDIi8+CjwvbGluZWFyR3JhZGllbnQ+CjwvZGVmcz4KPC9zdmc+Cg==");
-    opacity: 0.4;   
+    opacity: 0.4;  
     overflow: hidden;
     position: absolute;
     right: -10%;
