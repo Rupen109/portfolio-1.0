@@ -11,6 +11,12 @@ const GlobalStyle = createGlobalStyle`
     
 }
 
+html{
+    @media (max-width:500px){
+        font-size: 6px;
+    }
+}
+
 body{
     overflow-x: hidden;
     background: #10101A ;

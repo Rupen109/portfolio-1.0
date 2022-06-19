@@ -61,6 +61,18 @@ const About = styled.div`
    padding:0rem 11rem 6rem 11rem;
    color: white;
 
+  
+      @media (max-width:500px){
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* overflow: hidden !important; */
+        /* overflow-x: hidden !important; */
+        width: 65rem;
+        flex-direction:column-reverse;
+      
+   }
+
    ::before{
     content: url("https://portfoliorecreationshubhamthedev.netlify.app/static/media/home-bg.59b92434.svg");
     opacity: 0.5;
@@ -69,6 +81,11 @@ const About = styled.div`
     right: -10%;
     z-index: -1;
    }
+   ::before{
+    @media (max-width: 500px){
+      content :none;
+    }
+   }
 
 `
 
@@ -76,6 +93,16 @@ const Description = styled.div`
   h2{
     font-weight: lighter;
   }
+  .title{
+    @media (max-width: 500px){
+      overflow: hidden;
+      margin-top: -20rem;
+      justify-content: center;
+    
+      justify-items: center;
+    }
+  }
+
 
 `
 
@@ -90,6 +117,15 @@ const Image = styled.div`
    object-position: top;
    /* border-radius: 1rem; */
    
+   @media (max-width:500px){
+    width: 20rem;
+    margin-left: 4rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: -20rem;
+    content: none;
+    background-image: none;
+   }
    
    img{
      border-bottom:7px solid red;
@@ -103,6 +139,11 @@ const Image = styled.div`
       /* border-style: double; */
     /* border-top: cyan 6px solid; */
       /* border-radius: 1rem;   */
+    }
+
+    @media (max-width:500px){
+      content: none;
+      
     }
 `
 

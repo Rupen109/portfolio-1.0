@@ -133,7 +133,7 @@ const ServicesSection = () => {
                     </DecCard>   
 
                 </DecRight>
-                </div>
+            </div>
             
         </Services>
 
@@ -148,6 +148,19 @@ const Services = styled.div`
    padding: 0rem 12rem 10rem;
    color: white;
 
+   @media (max-width:500px){
+      display: flex;
+      flex-direction: column;
+      margin-top: -17rem;
+   }
+
+   .description h2{
+     @media (max-width: 500px){
+        margin: auto;
+        margin-left: 8rem;
+     }
+   }
+
    h2{
      margin-left: 450px;
    }
@@ -159,7 +172,10 @@ const Cards = styled.div`
    margin: 3rem 0rem 0rem ;
    width: 40rem;
    height: 20rem;
-   
+  
+  @media (max-width:500px){
+    font-size: 11px;
+  }
 `
 const Card = styled.div`
    
@@ -168,6 +184,7 @@ const Card = styled.div`
      height: 4rem;
      margin: 1rem 6rem 1rem 0rem; 
    }
+
 `
 
 const Line = styled.div`
@@ -176,7 +193,9 @@ const Line = styled.div`
    width: 8rem;
    margin: 2rem 1rem 1rem 35rem;
    border-radius: 40px;
-   
+   @media (max-width:500px){
+     margin: auto;
+   }
 `
 // const Title = styled.div `
 //    margin: 4rem 0rem -4rem -14rem;
@@ -196,7 +215,14 @@ const TitleLeft = styled.div`
      margin: 4rem 26rem 0rem 12rem;
      padding: 0.7rem 1rem;
      color: #23d997;
-     
+     @media (max-width:500px){
+        /* margin: auto; */
+        margin: 5rem 11rem 5rem 11rem ;
+        /* margin-left: 10rem; */
+        font-size: small;
+        /* padding: 1rem; */
+        /* margin: 3rem; */
+     }
 `
 const TitleRight = styled.div`
    font-size: 30px;
@@ -204,6 +230,11 @@ const TitleRight = styled.div`
      margin: 11rem 17rem 0rem 8rem;
      padding: 0.7rem 1rem;
      color: #23d997;
+
+     @media (max-width:500px){
+        margin: 10rem 15rem 0rem 14rem;
+        font-size: small;
+     }
 
 `
 
@@ -214,6 +245,11 @@ display: flex;
    width: 18rem;
    height: 20rem;
 
+   @media (max-width:500px){
+    width: 38rem;
+    margin-left: 3rem;
+    font-size: 11px;
+   }
    h3{
        /* margin-left: -0.5rem; */
    }

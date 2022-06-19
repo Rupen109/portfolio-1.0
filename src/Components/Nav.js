@@ -62,10 +62,19 @@ padding: 1rem 10rem;
 background: #10101A;
 /* box-shadow: cyan 1px 20px 140px; */
 
+@media (max-width:500px){
+    max-width: fit-content;
+}
+
 h1 a{
     margin-left: -18rem;
     color: #23d997;
+    @media (max-width:500px){
+        display: none;
+    
+    }
 }
+    
 
 a{
     color: white;

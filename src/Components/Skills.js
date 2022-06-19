@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import fd from '../imgs/web-development.png';
 import js from '../imgs/js-format.png';
 import idea from '../imgs/idea.png';
-
+  
 
 const Skills = () => {
   return (
@@ -16,7 +16,7 @@ const Skills = () => {
           <div className="flex flex-wrap -m-">
 
           <div className="flex flex-wrap w-full flex-col items-center text-center">
-                    <h1 className="sm:text-7xl text-2xl font-medium title-font mb-2 text-white">Things <span>I Love</span></h1>
+                    <h1 className="sm:text-6xl text-6xl md:mt-0 -mt-32  title-font mb-2 text-white">Things <span>I Love</span></h1>
                     <div className="h-1 mt-9 w-32 bg-cyan-300 rounded"></div>
                 </div>
       
@@ -33,29 +33,29 @@ const Skills = () => {
                 <div className="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
                 </div>
               </div>
-         
+
             </div> */}
             <section className="text-gray-600 body-font">
               <div className="container px-5  py-24 mt-4 mx-auto">
-                <div className="flex flex-wrap  -m-">
-                  <div className="p- scroll mx-auto  lg:w-1/4">
-                    <div className="h-3/4 bg-[#10101A] border-y-2 shadow-lg shadow-slate-400 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                <div className="flex flex-wrap ">
+                  <div className="p-4 md:p-0 scroll mx-auto  sm:w-1/4 w-2/3">
+                    <div className="sm:h-3/4 bg-[#10101A] border-y-2 shadow-lg shadow-slate-400 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
                     <img className=" w-[3rem] h-[3rem] rounded-full mx-auto" src={fd} alt="Developer Img" />
 
-                      <h1 className="title-font sm:text-2xl mt-4 text-xl font-medium text-[#23D997] mb-3">FrontEnd</h1>
-                      <p className="leading-relaxed text-xl text-[#CCCCCC] mb-3">I'm more front end focused and love to work with Reactjs as well as pure HTML, CSS.</p>
+                      <h1 className="title-font sm:text-2xl mt-4 text-3xl md:text-xl font-medium text-[#23D997] mb-3">FrontEnd</h1>
+                      <p className="leading-relaxed text-2xl md:text-xl text-[#CCCCCC] mb-3">I'm more front end focused and love to work with Reactjs as well as pure HTML, CSS.</p>
                       <a className="text-indigo-500 inline-flex items-center"/>Learn More
                        
                       <div className="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
                       </div>
                     </div>
                   </div>
-                  <div className="p- mx-auto lg:w-1/4">
-                    <div className="h-3/4 bg-[#10101A] border-y-2 shadow-lg shadow-[#23D997] bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                  <div className="p-4 md:p-0 mx-auto lg:w-1/4 w-2/3">
+                    <div className="sm:h-3/4 bg-[#10101A] border-y-2 shadow-lg shadow-[#23D997] bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
                     <img className=" w-[3rem] h-[3rem] rounded-full mx-auto" src={js} alt="Developer Img" />
               
-                      <h1 className="title-font sm:text-2xl mt-4 text-xl font-medium text-[#23D997] mb-3">Javascript</h1>
-                      <p className="leading-relaxed text-xl text-[#CCCCCC] mb-3">I just extremely love javascript, I can’t even express how much I love javascript with just a few lines.</p>
+                      <h1 className="title-font sm:text-2xl mt-4 text-3xl md:text-xl font-medium text-[#23D997] mb-3">Javascript</h1>
+                      <p className="leading-relaxed text-2xl  md:text-xl text-[#CCCCCC] mb-3">I just extremely love javascript, I can’t even express how much I love javascript with just a few lines.</p>
                       <a className="text-indigo-500 inline-flex items-center"/>Learn More
                       <div className="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
         
@@ -63,12 +63,12 @@ const Skills = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="p- mx-auto lg:w-1/4">
-                    <div className="h-3/4 bg-[#10101A] border-y-2 shadow-lg shadow-slate-400 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                  <div className="p-4 md:p-0 mx-auto lg:w-1/4 w-2/3">
+                    <div className="sm:h-3/4 bg-[#10101A] border-y-2 shadow-lg shadow-slate-400 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
                     <img className=" w-[3rem] h-[3rem] rounded-full mx-auto" src={idea} alt="Developer Img" />
 
-                      <h1 className="title-font sm:text-2xl mt-4 text-xl font-medium text-[#23D997] mb-3">Creative Coding</h1>
-                      <p className="leading-relaxed text-xl text-[#CCCCCC] mb-3">I love creative coding because I do both coding & designing. making beautiful art with code is very satisfying to me.</p>
+                      <h1 className="title-font sm:text-2xl mt-4 text-3xl md:text-xl font-medium text-[#23D997] mb-3">Creative Coding</h1>
+                      <p className="leading-relaxed text-2xl md:text-xl text-[#CCCCCC] mb-3">I love creative coding because I do both coding & designing. making beautiful art with code is very satisfying to me.</p>
                       <a className="text-indigo-500 inline-flex items-center" />Learn More
           
                       <div className="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
@@ -95,7 +95,10 @@ const Container = styled.div `
     right: -10%;
     top: 250%;
     /* z-index: -1; */
-   }
+    @media (max-width:500px){
+      content: none;
+    }
+  }
 `
 
 
