@@ -116,7 +116,7 @@ const Image = styled.div`
    /* border-radius: 1rem; */
    
    @media (max-width:500px){
-    width: 20rem;
+    width: 30rem;
     margin-left: 0rem;
     align-items: center;
     justify-content: center;
