@@ -28,17 +28,17 @@ const AboutSection = () => {
            <motion.div className='title'>
                <div className="hide">
                  <span className="text-2xl"> Hi,There 👋 I'M</span>
-                   <motion.h2 className="text-7xl"> Rupen Bhimani,</motion.h2>
+                   <motion.h2 className="text-8xl"> Rupen Bhimani,</motion.h2>
                </div>
                <div className="hide">
-                   <motion.h2 className="text-7rexl" variants={titleAnim} initial="hidden" animate="show">Work To Make Your <span>Dreams</span> Come True
+                   <motion.h2 className="text-7xl" variants={titleAnim} initial="hidden" animate="show">Work To Make Your <span>Dreams</span> Come True
                    </motion.h2>
                </div>
                {/* <div className="hide">
                    <h2>True</h2>
                </div> */}
            </motion.div>
-           <motion.p className="text-5xl">I’m a Web Developer. Working with my hands to make magic happen on the internet. </motion.p>
+           <motion.p className="text-3xl">I’m a Web Developer. Working with my hands to make magic happen on the internet. </motion.p>
            <motion.button variants={Button} initial="hidden" animate="show">Contact Me</motion.button>
        </Description>
            <Image className="PersonalPhoto">
