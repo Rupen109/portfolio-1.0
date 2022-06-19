@@ -95,7 +95,7 @@ const Description = styled.div`
   .title{
     @media (max-width: 500px){
       overflow: hidden;
-      margin-top: -9rem;
+      margin-top: -12rem;
       justify-content: center;
     
       justify-items: center;
