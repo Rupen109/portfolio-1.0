@@ -28,10 +28,10 @@ const AboutSection = () => {
            <motion.div className='title'>
                <div className="hide">
                  <span className="text-2xl"> Hi,There 👋 I'M</span>
-                   <motion.h2 className="text-9xl"> Rupen Bhimani,</motion.h2>
+                   <motion.h2 className="text-7xl"> Rupen Bhimani,</motion.h2>
                </div>
                <div className="hide">
-                   <motion.h2 className="text-9xl" variants={titleAnim} initial="hidden" animate="show">Work To Make Your <span>Dreams</span> Come True
+                   <motion.h2 className="text-7rexl" variants={titleAnim} initial="hidden" animate="show">Work To Make Your <span>Dreams</span> Come True
                    </motion.h2>
                </div>
                {/* <div className="hide">
