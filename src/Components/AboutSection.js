@@ -23,22 +23,22 @@ const AboutSection = () => {
  };
   return (
     
-       <About>
+    <About>
        <Description>
            <motion.div className='title'>
                <div className="hide">
                  <span className="text-2xl"> Hi,There 👋 I'M</span>
-                   <motion.h2 > Rupen Bhimani,</motion.h2>
+                   <motion.h2 className="text-9xl"> Rupen Bhimani,</motion.h2>
                </div>
                <div className="hide">
-                   <motion.h2 variants={titleAnim} initial="hidden" animate="show">Work To Make Your <span>Dreams</span> Come True
+                   <motion.h2 className="text-9xl" variants={titleAnim} initial="hidden" animate="show">Work To Make Your <span>Dreams</span> Come True
                    </motion.h2>
                </div>
                {/* <div className="hide">
                    <h2>True</h2>
                </div> */}
            </motion.div>
-           <motion.p>I’m a Web Developer. Working with my hands to make magic happen on the internet. </motion.p>
+           <motion.p className="text-5xl">I’m a Web Developer. Working with my hands to make magic happen on the internet. </motion.p>
            <motion.button variants={Button} initial="hidden" animate="show">Contact Me</motion.button>
        </Description>
            <Image className="PersonalPhoto">
@@ -60,7 +60,6 @@ const About = styled.div`
    justify-content: space-between;
    padding:0rem 11rem 6rem 11rem;
    color: white;
-
   
       @media (max-width:500px){
         display: flex;
@@ -68,9 +67,9 @@ const About = styled.div`
         align-items: center;
         /* overflow: hidden !important; */
         /* overflow-x: hidden !important; */
-        width: 70rem;
+        width: 75rem;
         flex-direction:column-reverse;
-      
+
    }
 
    ::before{
@@ -102,7 +101,6 @@ const Description = styled.div`
       justify-items: center;
     }
   }
-
 
 `
 
