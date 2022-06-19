@@ -38,7 +38,7 @@ const Skills = () => {
             <section className="text-gray-600 body-font">
               <div className="container px-5  py-24 md:mt-4 -mt-16 mx-auto">
                 <div className="flex flex-wrap ">
-                  <div className="p-4 md:p-0 scroll mx-auto  sm:w-1/4 w-5/6">
+                  <div className="p-6 md:p-0 scroll mx-auto  sm:w-1/4 w-5/6">
                     <div className="sm:h-3/4 bg-[#10101A] border-y-2 shadow-lg shadow-slate-400 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
                     <img className=" w-[3rem] h-[3rem] rounded-full mx-auto" src={fd} alt="Developer Img" />
 
@@ -50,7 +50,7 @@ const Skills = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="p-4 md:p-0 mx-auto lg:w-1/4 w-5/6">
+                  <div className="p-6 md:p-0 mx-auto lg:w-1/4 w-5/6">
                     <div className="sm:h-3/4 bg-[#10101A] border-y-2 shadow-lg shadow-[#23D997] bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
                     <img className=" w-[3rem] h-[3rem] rounded-full mx-auto" src={js} alt="Developer Img" />
               
@@ -63,7 +63,7 @@ const Skills = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="p-4 md:p-0 mx-auto lg:w-1/4 w-5/6">
+                  <div className="p-6 md:p-0 mx-auto lg:w-1/4 w-5/6">
                     <div className="sm:h-3/4 bg-[#10101A] border-y-2 shadow-lg shadow-slate-400 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
                     <img className=" w-[3rem] h-[3rem] rounded-full mx-auto" src={idea} alt="Developer Img" />
 
