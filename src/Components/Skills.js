@@ -63,7 +63,7 @@ const Skills = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="p-4 md:p-0 mx-auto lg:w-1/4 w-2/3">
+                  <div className="p-4 md:p-0 mx-auto lg:w-1/4 w-2/2">
                     <div className="sm:h-3/4 bg-[#10101A] border-y-2 shadow-lg shadow-slate-400 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
                     <img className=" w-[3rem] h-[3rem] rounded-full mx-auto" src={idea} alt="Developer Img" />
 
