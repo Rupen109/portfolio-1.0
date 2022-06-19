@@ -41,7 +41,7 @@ const AboutSection = () => {
            <motion.p>I’m a Web Developer. Working with my hands to make magic happen on the internet. </motion.p>
            <motion.button variants={Button} initial="hidden" animate="show">Contact Me</motion.button>
        </Description>
-           <Image className="">
+           <Image className="PersonalPhoto">
              <motion.img variants={photoAnim} initial="hidden" animate="show" className="p-6" src={Rup4} alt="Developer Img"/>
            </Image>
     </ About>
@@ -118,7 +118,7 @@ const Image = styled.div`
    /* border-radius: 1rem; */
    
    @media (max-width:500px){
-    width: 20rem;
+    width: 30rem;
     margin-left: 0rem;
     align-items: center;
     justify-content: center;
