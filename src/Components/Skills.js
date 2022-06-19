@@ -16,7 +16,7 @@ const Skills = () => {
           <div className="flex flex-wrap -m-">
 
           <div className="flex flex-wrap w-full flex-col items-center text-center">
-                    <h1 className="sm:text-6xl text-6xl md:mt-0 -mt-32  title-font mb-2 text-white">Things <span>I Love</span></h1>
+                    <h1 className="sm:text-6xl text-6xl md:mt-0 -mt-52  title-font mb-2 text-white">Things <span>I Love</span></h1>
                     <div className="h-1 mt-9 w-32 bg-cyan-300 rounded"></div>
                 </div>
       
@@ -36,7 +36,7 @@ const Skills = () => {
 
             </div> */}
             <section className="text-gray-600 body-font">
-              <div className="container px-5  py-24 mt-4 mx-auto">
+              <div className="container px-5  py-24 md:mt-4 -mt-16 mx-auto">
                 <div className="flex flex-wrap ">
                   <div className="p-4 md:p-0 scroll mx-auto  sm:w-1/4 w-5/6">
                     <div className="sm:h-3/4 bg-[#10101A] border-y-2 shadow-lg shadow-slate-400 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
