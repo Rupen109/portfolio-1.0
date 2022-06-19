@@ -157,7 +157,7 @@ const Services = styled.div`
    .description h2{
      @media (max-width: 500px){
         margin: auto;
-        margin-left: 8rem;
+        margin-left: 10rem;
      }
    }
 
@@ -175,6 +175,7 @@ const Cards = styled.div`
   
   @media (max-width:500px){
     font-size: 11px;
+    width: 45rem;
   }
 `
 const Card = styled.div`
@@ -216,12 +217,8 @@ const TitleLeft = styled.div`
      padding: 0.7rem 1rem;
      color: #23d997;
      @media (max-width:500px){
-        /* margin: auto; */
-        margin: 5rem 11rem 5rem 11rem ;
-        /* margin-left: 10rem; */
+        margin: 6rem 13rem 5rem 14rem ;
         font-size: small;
-        /* padding: 1rem; */
-        /* margin: 3rem; */
      }
 `
 const TitleRight = styled.div`
@@ -232,7 +229,7 @@ const TitleRight = styled.div`
      color: #23d997;
 
      @media (max-width:500px){
-        margin: 10rem 15rem 0rem 14rem;
+        margin: 10rem 17rem 0rem 17rem;
         font-size: small;
      }
 

@@ -68,7 +68,7 @@ const About = styled.div`
         align-items: center;
         /* overflow: hidden !important; */
         /* overflow-x: hidden !important; */
-        width: 65rem;
+        width: 70rem;
         flex-direction:column-reverse;
       
    }
@@ -119,7 +119,7 @@ const Image = styled.div`
    
    @media (max-width:500px){
     width: 20rem;
-    margin-left: 4rem;
+    margin-left: 0rem;
     align-items: center;
     justify-content: center;
     margin-top: -20rem;
