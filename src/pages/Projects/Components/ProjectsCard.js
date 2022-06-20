@@ -1,4 +1,22 @@
+import React from 'react';
+import { motion } from 'framer-motion';
 
+
+const Button ={
+  show: {
+  
+    opacity: 1,
+    transition: {
+        ease:"easeOut",
+        duration:10,
+
+    },
+  hidden:{
+    opacity: 0.1,
+    
+  },  
+},
+};
 
 const ProjectsCard = ({title,desc,img,link}) => {
   return (
@@ -14,8 +32,11 @@ const ProjectsCard = ({title,desc,img,link}) => {
               <div className="w-20 h-1 bg-cyan-400 rounded mt-2"></div>
               <p className="leading-relaxed text-lg mb-3">{desc}</p>
               <div className="flex items-center flex-wrap ">
-                <a href className="text-white border border-  p-2 hover:bg-white inline-flex items-center md:mb-2 lg:mb-0">Learn More
-                </a>
+               
+           <motion.button as={link} to="/contact" className="p-2 text-base" variants={Button} initial="hidden" animate="show"> View More</motion.button>
+           
+                
+               
               </div>
             </div>
           </div>

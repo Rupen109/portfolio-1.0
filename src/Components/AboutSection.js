@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import Rup4 from '../imgs/R4.png';
 import { motion } from 'framer-motion';
 import { titleAnim, photoAnim } from '../pages/Animation';
+import { Link } from "react-router-dom";
 
 const AboutSection = () => {
   
@@ -28,7 +29,7 @@ const AboutSection = () => {
            <motion.div className='title'>
                <div className="hide">
                  <span className="text-2xl"> Hi,There 👋 I'M</span>
-                   <motion.h2 className="text-8xl"> Rupen Bhimani,</motion.h2>
+                   <motion.h2 className="text-8xl md:text-7xl"> Rupen Bhimani,</motion.h2>
                </div>
                <div className="hide">
                    <motion.h2 className="text-7xl" variants={titleAnim} initial="hidden" animate="show">Work To Make Your <span>Dreams</span> Come True
@@ -39,7 +40,12 @@ const AboutSection = () => {
                </div> */}
            </motion.div>
            <motion.p className="text-3xl">I’m a Web Developer. Working with my hands to make magic happen on the internet. </motion.p>
-           <motion.button variants={Button} initial="hidden" animate="show">Contact Me</motion.button>
+           {/* <motion.button as={Link} to="/work" variants={Button} initial="hidden" animate="show">
+            Contact Me
+            </motion.button> */}
+            <Link to="/contact" className="w-32 p-2 my-10 border-[#23D997] hover:bg-[#23d997] text-center text-white duration-200 border-2 md:p-[1rem 2rem]">
+                    Contact Us
+                  </Link>
        </Description>
            <Image className="PersonalPhoto">
              <motion.img variants={photoAnim} initial="hidden" animate="show" className="p-6" src={Rup4} alt="Developer Img"/>

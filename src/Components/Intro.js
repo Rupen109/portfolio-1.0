@@ -8,7 +8,7 @@ const Intro = () => {
         <>
             <section className="text-gray-600 body-font">
                 <div className="flex flex-wrap w-full flex-col items-center text-center">
-                    <h1 className="sm:text-7xl md:text-2xl text-7xl font-medium title-font mb-2 text-white">About <span>Me</span></h1>
+                    <h1 className="sm:text-7xl md:text-7xl text-7xl font-medium title-font mb-2 text-white">About <span>Me</span></h1>
                     <div className="h-1 mt-9 w-32 bg-cyan-300 rounded"></div>
                 </div>
 
@@ -21,7 +21,7 @@ const Intro = () => {
                                 </svg>
                                 <img className=" w-[3rem] h-[3rem] rounded-full mx-auto" src={Rup3} alt="Developer Img" />
 
-                                <p className="leading-relaxed md:text-xl text-3xl  text-white mb-6">Hi, I'm Anurag Hazra, a self-taught passionate FrontEnd developer from India, currently working at Razorpay as a FrontEnd engineer. I've been building stuff on the web since when I was in 6th standard, I've made countless side projects and I also posses magical powers of using react to build delightful user interfaces.
+                                <p className="leading-relaxed md:text-2xl text-3xl  text-white mb-6">Hi, I'm Anurag Hazra, a self-taught passionate FrontEnd developer from India, currently working at Razorpay as a FrontEnd engineer. I've been building stuff on the web since when I was in 6th standard, I've made countless side projects and I also posses magical powers of using react to build delightful user interfaces.
 
                                     I also love doing open source development, I actively maintain various notable open source projects with over,
                                     30k+ stars on GitHub and 50m+ hits. It gives me a wonderful feeling of achievement and joy which I cannot explain in words.</p>
@@ -39,19 +39,19 @@ const Intro = () => {
                 <div className="container px-5 md:-mt-44 md:ml-48  mx-auto">
                     <div className="flex flex-wrap md:-m-4">
                         <div className="p-2 lg:w-3/12 w-6/12">
-                            <div className="md:h-2/3 h-2/3 bg-[#10101A] md:shadow-2xl shadow-sm border-y-2  shadow-cyan-300 px-8 pb-24 rounded-lg overflow-hidden text-center relative">
+                            <div className="md:h-2/3 h-2/3 bg-[#10101A] shadow-xl border-y-2  shadow-cyan-300 px-8 pb-24 rounded-lg overflow-hidden text-center relative">
                                 <h1 className="title-font sm:text-xl mt-5 text-3xl font-medium text-white mb-3">“Simplicity is the baddest choice to be the best.“</h1>
                                 <p className="leading-relaxed  sm:text-lg text-white mb-3">- Rupen Bhimani </p>
                             </div>
                         </div>
                         <div className="p-2 lg:w-3/12 w-6/12">
-                            <div className="md:h-2/3 h-2/3 bg-[#10101A] md:shadow-2xl shadow-sm border-y-2 shadow-[#23D997] px-8  pb-24 rounded-lg overflow-hidden text-center relative">
+                            <div className="md:h-2/3 h-2/3 bg-[#10101A] shadow-xl  border-y-2 shadow-[#23D997] px-8  pb-24 rounded-lg overflow-hidden text-center relative">
                                 <h1 className="title-font sm:text-xl mt-5 text-3xl font-medium text-white mb-3">“Creativity is the driver of an unstoppable train called Passion.”</h1>
                                 <p className="leading-relaxed  sm:text-lg text-white mb-3">- Rupen Bhimani </p>
                             </div>
                         </div>
-                        <div className="p-2 lg:w-3/12 m-auto -mt-14">
-                            <div className="md:h-2/3 h-2/2 bg-[#10101A] md:shadow-2xl shadow-sm border-y-2 shadow-cyan-300 px-8  p rounded-lg overflow-hidden text-center relative">
+                        <div className="p-2 lg:w-3/12 md:m-0 m-auto -mt-14">
+                            <div className="md:h-2/3 h-2/2 bg-[#10101A] shadow-xl border-y-2 shadow-cyan-300 px-8  p rounded-lg overflow-hidden text-center relative">
                                 <h1 className="title-font sm:text-xl mt-5 text-3xl font-medium text-white mb-3">“I know I’m not successful enough, but I’m passionate enough not to worry about success.“</h1>
                                 <p className="leading-relaxed sm:text-lg text-white mb-3">- Rupen Bhimani</p>
 

@@ -22,35 +22,35 @@ const MyProjects = () => {
 
     {
       title: "Strengthen reflex action",
-      desc: "a statement or account giving the characteristics of someone or something : a descriptive",
+      desc: "a statement or account giving the characteristics of som",
       img: Css,
       link: "https://www.towergame.app/",
     },
 
     {
       title: "Strengthen reflex action",
-      desc: "Description definition, a statement, picture in words, or account that describes; ",
+      desc: "Description definition, a statement, picture in words ",
       img: shreebai,
       link: "https://www.towergame.app/",
     },
 
     {
       title: "Strengthen reflex action",
-      desc: "Description definition, a statement, picture in words, or account that describes; ",
+      desc: "Description definition, a statement, picture in words ",
       img: dhinga,
       link: "https://www.towergame.app/",
     },
 
     {
       title: "Strengthen reflex action",
-      desc: "Description definition, a statement, picture in words, or account that describes; ",
+      desc: "Description definition, a statement, picture in words ",
       img: google,
       link: "https://www.towergame.app/",
     },
 
     {
       title: "Strengthen reflex action",
-      desc: "Description definition, a statement, picture in words, or account that describes; ",
+      desc: "Description definition, a statement, picture in words ",
       img: quiz,
       link: "https://www.towergame.app/",
     },
@@ -61,8 +61,8 @@ const MyProjects = () => {
   return (
     <motion.div variants={pageAnimation} initial="hidden" animate="show">
       <Container>
-        <span className=" text-justify font-light ml-[36rem]   text-6xl">Development</span>
-        <div className="md:flex md:flex-wrap bg-BackG  mt-6">
+        <span className=" text-justify font-light ml-[36rem] text-6xl">Development</span>
+        <div className="md:flex md:flex-wrap mt-12">
           {projects.map((projects, index) => (
             <ProjectsCard title={projects.title} key={index} desc={projects.desc} img={projects.img} link={projects.link} />
           ))}
@@ -76,6 +76,7 @@ const Container = styled.div`
 /* background-color: brown; */
 background: url("https://portfoliorecreationshubhamthedev.netlify.app/static/media/home-bg.59b92434.svg");
 right: 400%;
+margin-top: 50px;
 padding-top: 1rem;
 background-attachment: fixed;
 background-size: cover;
