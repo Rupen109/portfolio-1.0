@@ -61,8 +61,8 @@ const MyProjects = () => {
   return (
     <motion.div variants={pageAnimation} initial="hidden" animate="show">
       <Container>
-        <span className=" text-justify font-light ml-[36rem] text-6xl">Development</span>
-        <div className="md:flex md:flex-wrap mt-12">
+        <span className=" text-justify font-light md:ml-[38rem] ml-[22rem] text-6xl">Development</span>
+        <div className="md:flex justify-center  md:flex-wrap mt-12 md:-ml-12 ">
           {projects.map((projects, index) => (
             <ProjectsCard title={projects.title} key={index} desc={projects.desc} img={projects.img} link={projects.link} />
           ))}
