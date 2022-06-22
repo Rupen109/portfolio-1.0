@@ -91,7 +91,7 @@ const About = styled.div`
    ::before{
     @media (max-width: 500px){
       /* content :none; */
-      opacity: 0.5;
+      opacity: 0.4;
       /* height: 140rem; */
       width: 150rem;
       /* background-size: cover !important; */
