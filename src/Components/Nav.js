@@ -65,7 +65,7 @@ background: #10101A;
 
 @media (max-width:500px){
     max-width: fit-content;
-
+    overflow: hidden;
 }
 
 h1 a{

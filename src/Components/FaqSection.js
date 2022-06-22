@@ -65,11 +65,13 @@ const FaqSection = () => {
 }
 
 const Faq = styled(About)`
+
+ 
 display: block;
    span{
        display: block;
    }
-
+   
    h2{
        padding-bottom: 2rem;
        font-weight: lighter;

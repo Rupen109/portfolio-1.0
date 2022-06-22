@@ -28,23 +28,23 @@ const AboutSection = () => {
        <Description>
            <motion.div className='title'>
                <div className="hide">
-                 <span className="text-2xl"> Hi,There 👋 I'M</span>
-                   <motion.h2 className="text-8xl md:text-7xl"> Rupen Bhimani,</motion.h2>
+                 <span className="text-2xl "> Hi,There 👋 I'M</span>
+                   <motion.h2 className="text-5xl md:text-7xl"> Rupen Bhimani,</motion.h2>
                </div>
                <div className="hide">
-                   <motion.h2 className="text-7xl" variants={titleAnim} initial="hidden" animate="show">Work To Make Your <span>Dreams</span> Come True
+                   <motion.h2 className="text-3xl md:text-7xl md:mt-0 mt-6" variants={titleAnim} initial="hidden" animate="show">Work To Make Your <span>Dreams</span> Come True
                    </motion.h2>
                </div>
                {/* <div className="hide">
                    <h2>True</h2>
                </div> */}
            </motion.div>
-           <motion.p className="text-3xl">I’m a Web Developer. Working with my hands to make magic happen on the internet. </motion.p>
+           <motion.p className="text-2xl md:text-3xl">I’m a Web Developer. Working with my hands to make magic happen on the internet. </motion.p>
            {/* <motion.button as={Link} to="/work" variants={Button} initial="hidden" animate="show">
             Contact Me
             </motion.button> */}
-            <Link to="/contact" className="w-32 p-2 my-10 border-[#23D997] hover:bg-[#23d997] text-center text-white duration-200 border-2 md:p-[1rem 2rem]">
-                    Contact Us
+            <Link to="/contact" className="w-32 flex justify-center p-3 border-[#23D997] hover:bg-[#23d997] text-center text-2xl text-white duration-200 border-2 md:p-[1rem 2rem]">
+                    Hire Me
                   </Link>
        </Description>
            <Image className="PersonalPhoto">
@@ -68,12 +68,14 @@ const About = styled.div`
    color: white;
   
       @media (max-width:500px){
+        
         display: flex;
+        width: 100%;
         justify-content: center;
         align-items: center;
-        /* overflow: hidden !important; */
-        /* overflow-x: hidden !important; */
-        width: 75rem;
+        overflow: hidden !important;
+        /* min-width: max-content; */
+        /* width: 75rem; */
         flex-direction:column-reverse;
 
    }
@@ -85,6 +87,7 @@ const About = styled.div`
     position: absolute;
     right: -10%;
     z-index: -1;
+    overflow: hidden;
    }
    ::before{
     @media (max-width: 500px){
@@ -101,9 +104,13 @@ const Description = styled.div`
   .title{
     @media (max-width: 500px){
       overflow: hidden;
-      margin-top: -12rem;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      margin-top: -19rem;
       justify-content: center;
-    
+      align-items: center;
+      max-width: max-content;
       justify-items: center;
     }
   }
@@ -122,13 +129,14 @@ const Image = styled.div`
    /* border-radius: 1rem; */
    
    @media (max-width:500px){
-    width: 30rem;
-    margin-left: -6rem;
+
+    width: 20rem;
+    overflow: hidden;
+    /* margin-left: -6rem; */
     align-items: center;
     justify-content: center;
-    margin-top: -22rem;
-    content: none;
-    background-image: none;
+    margin-top: -20rem;
+    
    }
    
    img{

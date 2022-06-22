@@ -28,6 +28,7 @@ body{
     /* position: absolute; */
     z-index: -1;
     /* background-size:cover; */
+  
 }
 
 
