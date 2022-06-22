@@ -16,7 +16,7 @@ const Nav = () => {
         <h1><a href="#">BHIMANI RUPEN</a></h1>
         <ul>
             <li>
-                <Link className="md:text-lg text-[14px]" to="/">About Me</Link>
+                <Link className="md:text-lg text-[13px]" to="/">About Me</Link>
                 <Line 
                 transition={{duration: 0.45}}
                 initial={{width: "0%"}}
@@ -24,7 +24,7 @@ const Nav = () => {
                 />
             </li>
             <li>
-                <Link className="md:text-lg text-[14px]" to="/work" >My Projects</Link>
+                <Link className="md:text-lg text-[13px]" to="/work" >My Projects</Link>
                 <Line 
                 transition={{duration: 0.45}}
                 initial={{width: "0%"}}
@@ -32,7 +32,7 @@ const Nav = () => {
                 /> 
             </li>
             <li>
-                <Link className="md:text-lg text-[14px]" to="/contact">Contct Me</Link>
+                <Link className="md:text-lg text-[13px]" to="/contact">Contct Me</Link>
                 <Line 
                 transition={{duration: 0.75}}
                 initial={{width: "0%"}}
@@ -105,6 +105,10 @@ background: #23d997;
 width: 5%;
 position: absolute;
 bottom: -50%;
+
+@media (max-width:500px){
+bottom: -20%;
+}
 
 `
 
