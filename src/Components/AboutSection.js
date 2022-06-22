@@ -130,7 +130,7 @@ const Image = styled.div`
    
    @media (max-width:500px){
 
-    width: 20rem;
+    width: 25rem;
     overflow: hidden;
     /* margin-left: -6rem; */
     align-items: center;
