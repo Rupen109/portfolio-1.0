@@ -29,10 +29,10 @@ const AboutSection = () => {
            <motion.div className='title'>
                <div className="hide">
                  <span className="text-3xl "> Hi,There 👋 I'M</span>
-                   <motion.h2 className="text-8xl md:text-7xl"> Rupen Bhimani,</motion.h2>
+                   <motion.h2 className="text-8xl md:text-7xl font-extrabold"> Rupen Bhimani,</motion.h2>
                </div>
                <div className="hide">
-                   <motion.h2 className="text-5xl md:text-7xl md:mt-0 mt-6" variants={titleAnim} initial="hidden" animate="show">Work To Make Your <span>Dreams</span> Come True
+                   <motion.h2 className="font-extrabold text-5xl md:text-7xl md:mt-0 mt-6" variants={titleAnim} initial="hidden" animate="show">Work To Make Your <span>Dreams</span> Come True
                    </motion.h2>
                </div>
                {/* <div className="hide">
@@ -92,7 +92,7 @@ const About = styled.div`
     @media (max-width: 500px){
       /* content :none; */
       opacity: 0.15;
-      height: 170rem;
+      height: 160rem;
       width: 180rem;
       /* background-size: cover !important; */
       /* background-position: top !important; */
