@@ -34,7 +34,7 @@ const Nav = () => {
             <li>
                 <Link className="md:text-lg text-[13px]" to="/contact">Contct Me</Link>
                 <Line 
-                transition={{duration: 0.75}}
+                transition={{duration: 0.45}}
                 initial={{width: "0%"}}
                 animate={{width: pathname === "/contact" ? "50%" : "0%"}}
                 />
