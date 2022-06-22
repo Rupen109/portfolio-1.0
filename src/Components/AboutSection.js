@@ -73,7 +73,7 @@ const About = styled.div`
         width: 100%;
         justify-content: center;
         align-items: center;
-        overflow: hidden !important;
+        /* overflow: hidden !important; */
         /* min-width: max-content; */
         /* width: 75rem; */
         flex-direction:column-reverse;
@@ -91,7 +91,15 @@ const About = styled.div`
    }
    ::before{
     @media (max-width: 500px){
-      content :none;
+      /* content :none; */
+      opacity: 0.3;
+      /* height: 140rem; */
+      width: 162rem;
+      /* background-size: cover !important; */
+      /* background-position: top !important; */
+      background-attachment: fixed;
+      overflow-x: hidden;
+       right: 15%;
     }
    }
 
