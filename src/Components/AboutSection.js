@@ -83,22 +83,21 @@ const About = styled.div`
    ::before{
     content: url("https://portfoliorecreationshubhamthedev.netlify.app/static/media/home-bg.59b92434.svg");
     opacity: 0.5;
-    overflow: hidden;
     position: absolute;
     right: -10%;
     z-index: -1;
-    overflow: hidden;
+    
    }
    ::before{
     @media (max-width: 500px){
       /* content :none; */
-      opacity: 0.3;
+      opacity: 0.5;
       /* height: 140rem; */
-      width: 162rem;
+      width: 150rem;
       /* background-size: cover !important; */
       /* background-position: top !important; */
       background-attachment: fixed;
-      overflow-x: hidden;
+      /* overflow-x: hidden; */
        right: 15%;
     }
    }
