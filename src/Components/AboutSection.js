@@ -29,7 +29,7 @@ const AboutSection = () => {
            <motion.div className='title'>
                <div className="hide">
                  <span className="text-3xl "> Hi,There 👋 I'M</span>
-                   <motion.h2 className="text-9xl md:text-7xl"> Rupen Bhimani,</motion.h2>
+                   <motion.h2 className="text-8xl md:text-7xl"> Rupen Bhimani,</motion.h2>
                </div>
                <div className="hide">
                    <motion.h2 className="text-5xl md:text-7xl md:mt-0 mt-6" variants={titleAnim} initial="hidden" animate="show">Work To Make Your <span>Dreams</span> Come True
@@ -105,13 +105,13 @@ const Description = styled.div`
     @media (max-width: 500px){
       overflow: hidden;
       overflow: hidden;
-      display: flex;
-      flex-direction: column;
-      margin-top: -19rem;
-      justify-content: center;
-      align-items: center;
-      max-width: max-content;
-      justify-items: center;
+      /* display: flex; */
+      /* flex-direction: column; */
+      margin-top: -21rem;
+      /* justify-content: center; */
+      /* align-items: center; */
+      /* max-width: max-content; */
+      /* justify-items: center; */
     }
   }
 
