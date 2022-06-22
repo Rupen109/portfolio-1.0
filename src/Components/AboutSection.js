@@ -93,11 +93,11 @@ const About = styled.div`
       /* content :none; */
       opacity: 0.4;
       /* height: 140rem; */
-      width: 150rem;
+      width: 148rem;
       /* background-size: cover !important; */
       /* background-position: top !important; */
       background-attachment: fixed;
-      /* overflow-x: hidden; */
+      overflow-x: hidden;
        right: 15%;
     }
    }
