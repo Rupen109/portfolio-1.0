@@ -91,13 +91,13 @@ const About = styled.div`
    ::before{
     @media (max-width: 500px){
       /* content :none; */
-      opacity: 0.4;
-      /* height: 140rem; */
-      width: 148rem;
+      opacity: 0.15;
+      height: 170rem;
+      width: 180rem;
       /* background-size: cover !important; */
       /* background-position: top !important; */
       background-attachment: fixed;
-      overflow-x: hidden;
+      overflow: hidden;
        right: 15%;
     }
    }
