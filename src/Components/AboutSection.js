@@ -39,7 +39,7 @@ const AboutSection = () => {
                    <h2>True</h2>
                </div> */}
            </motion.div>
-           <motion.p className="text-4xl md:text-3xl">I’m a Web Developer. Working with my hands to make magic happen on the internet. </motion.p>
+           <motion.p className="text-3xl md:text-3xl">I’m a Web Developer. Working with my hands to make magic happen on the internet. </motion.p>
            {/* <motion.button as={Link} to="/work" variants={Button} initial="hidden" animate="show">
             Contact Me
             </motion.button> */}
