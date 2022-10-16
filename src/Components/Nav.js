@@ -13,7 +13,7 @@ const Nav = () => {
         <img className='logo'  src={Logo} alt='logo'></img>
         
         </Dd>
-        <h1><a href="#">BHIMANI RUPEN</a></h1>
+        <h1><a href="#"> BHIMANI RUPEN</a></h1>
         <ul>
             <li>
                 <Link className="md:text-lg text-[13px]" to="/">About Me</Link>

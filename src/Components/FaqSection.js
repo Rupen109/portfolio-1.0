@@ -12,48 +12,48 @@ const FaqSection = () => {
             Any Questions? <span> FAQ </span>
         </h2>
         <AnimateSharedLayout>
-        <Toggle title="how do i Started?">
+        <Toggle title="How do i Started?">
         <div className="Questions">
            <div className="answer">
-               <p>lorem Lorem ipsom magi noodle panjabi</p>
-               <p>
+               <p>From First Year Of Collage I Know About Web Dev And Get Interested, So My Web Dev Journey Started From That Point.</p>
+               {/* <p>
                Lorem ipsom magi noodle panjabiLorem ipsom magi noodle panjabiLorem ipsom magi noodle panjabi.
-               </p>
+               </p> */}
            </div>
         </div>
         </Toggle>
 
-        <Toggle title="How Do I Started?">
+        <Toggle title="My Resources">
         <div className="Questions">
            <div className="answer">
-               <p>lorem Lorem ipsom magi noodle panjabi</p>
-               <p>
+               <p>I Have Learned Web Dev From Free Sources Like Youtube,Google (Some Tutorials). etc</p>
+               {/* <p>
                Lorem ipsom magi noodle panjabiLorem ipsom magi noodle panjabiLorem ipsom magi noodle panjabi.
-               </p>
+               </p> */}
            </div>
         </div>
         </Toggle>
 
-        <Toggle title="How Do I Started?">
+        <Toggle title="Experience In IT Industry?">
 
         <div className="Questions">
            <div className="answer">
-               <p>lorem Lorem ipsom magi noodle panjabi</p>
-               <p>
+               <p>I Have Almost 2+ Years Experience In IT Industry</p>
+               {/* <p>
                Lorem ipsom magi noodle panjabiLorem ipsom magi noodle panjabiLorem ipsom magi noodle panjabi.
-               </p>
+               </p> */}
            </div>
         </div>
         </Toggle>
 
-        <Toggle title="How Do I Started?">
+        <Toggle title="Have Any More QNA?">
 
         <div className="Questions">
            <div className="answer">
-               <p>lorem Lorem ipsom magi noodle panjabi</p>
-               <p>
+               <p>Please Contact Me.</p>
+               {/* <p>
                Lorem ipsom magi noodle panjabiLorem ipsom magi noodle panjabiLorem ipsom magi noodle panjabi.
-               </p>
+               </p> */}
            </div>
         </div>
         </Toggle>

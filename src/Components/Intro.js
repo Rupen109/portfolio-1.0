@@ -21,10 +21,10 @@ const Intro = () => {
                                 </svg>
                                 <img className=" w-[3rem] h-[3rem] rounded-full mx-auto" src={Rup3} alt="Developer Img" />
 
-                                <p className="leading-relaxed md:text-2xl text-3xl  text-white mb-6">Hi, I'm Anurag Hazra, a self-taught passionate FrontEnd developer from India, currently working at Razorpay as a FrontEnd engineer. I've been building stuff on the web since when I was in 6th standard, I've made countless side projects and I also posses magical powers of using react to build delightful user interfaces.
+                                <p className="leading-relaxed md:text-2xl text-3xl  text-white mb-6">Hi, I'm Rupen Bhimani, a self-taught passionate FrontEnd developer from India, currently working at Adhir Info as a FrontEnd engineer. I've been building stuff on the web since when I was in First Year Of Collage, I've made many side projects and I also posses magical powers of using react to build delightful user interfaces.
 
                                     I also love doing open source development, I actively maintain various notable open source projects with over,
-                                    30k+ stars on GitHub and 50m+ hits. It gives me a wonderful feeling of achievement and joy which I cannot explain in words.</p>
+                                    It gives me a wonderful feeling of achievement and joy which I cannot explain in words.</p>
                                 <a href className="inline-flex items-center">
                                     <span className="flex-grow flex flex-col pl-4">
                                         <span className="title-font md:text-2xl text-4xl mb-16 font-extralight text-white">Thank You 🙂</span>

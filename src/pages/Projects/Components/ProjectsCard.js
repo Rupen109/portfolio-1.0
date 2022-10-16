@@ -32,10 +32,13 @@ const ProjectsCard = ({title,desc,img,link}) => {
               <div className="w-20 h-1 bg-cyan-400 rounded mt-2"></div>
               <p className="leading-relaxed md:text-lg text-4xl mb-3">{desc}</p>
               <div className="flex items-center flex-wrap ">
-                <Link to="/contact">
+                {/* <Link to="/contact">  
            <motion.button className="p-2 md:text-base text-2xl" variants={Button} initial="hidden" animate="show">View More</motion.button>
-                </Link>
-               
+                </Link> */}
+                  <a href={link} target="_blank" className="p-2 text-base text-center text-white duration-100 bg-[#23D997]  cursor-pointer md:w-32 font-text outline outline-[#23D997] outline-offset-4 focus:outline-offset-4 outline-offset-0">
+                    Preview Project
+                  </a>
+  
               </div>
             </div>
           </div>

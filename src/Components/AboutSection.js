@@ -6,52 +6,52 @@ import { titleAnim, photoAnim } from '../pages/Animation';
 import { Link } from "react-router-dom";
 
 const AboutSection = () => {
-  
- const Button ={
+
+  const Button = {
     show: {
-    
+
       opacity: 1,
       transition: {
-          ease:"easeOut",
-          duration:10,
-  
+        ease: "easeOut",
+        duration: 10,
+
       },
-    hidden:{
-      opacity: 0.1,
-      
-    },  
- },
- };
+      hidden: {
+        opacity: 0.1,
+
+      },
+    },
+  };
   return (
-    
+
     <About>
-       <Description>
-           <motion.div className='title'>
-               <div className="hide">
-                 <span className="text-3xl "> Hi,There 👋 I'M</span>
-                   <motion.h2 className="text-8xl md:text-7xl "> Rupen Bhimani,</motion.h2>
-               </div>
-               <div className="hide">
-                   <motion.h2 className="text-6xl md:text-7xl md:mt-0 mt-6" variants={titleAnim} initial="hidden" animate="show">Work To Make Your <span>Dreams</span> Come True
-                   </motion.h2>
-               </div>
-               {/* <div className="hide">
+      <Description>
+        <motion.div className='title'>
+          <div className="hide">
+            <span className="text-3xl "> Hi,There 👋 I'M</span>
+            <motion.h2 className="text-8xl md:text-7xl "> Rupen Bhimani,</motion.h2>
+          </div>
+          <div className="hide">
+            <motion.h2 className="text-6xl md:text-7xl md:mt-0 mt-6" variants={titleAnim} initial="hidden" animate="show">Work To Make Your <span>Dreams</span> Come True
+            </motion.h2>
+          </div>
+          {/* <div className="hide">
                    <h2>True</h2>
                </div> */}
-           </motion.div>
-           <motion.p className="text-3xl md:text-3xl">I’m a Web Developer. Working with my hands to make magic happen on the internet. </motion.p>
-           {/* <motion.button as={Link} to="/work" variants={Button} initial="hidden" animate="show">
+        </motion.div>
+        <motion.p className="text-3xl md:text-3xl">I’m a Web Developer. Working with my hands to make magic happen on the internet. </motion.p>
+        {/* <motion.button as={Link} to="/work" variants={Button} initial="hidden" animate="show">
             Contact Me
             </motion.button> */}
-            <Link to="/contact" className="w-32 flex justify-center p-3 border-[#23D997] hover:bg-[#23d997] text-center text-2xl text-white duration-200 border-2 md:p-[1rem 2rem]">
-                    Hire Me
-                  </Link>
-       </Description>
-           <Image className="PersonalPhoto">
-             <motion.img variants={photoAnim} initial="hidden" animate="show" className="p-6" src={Rup4} alt="Developer Img"/>
-           </Image>
+        <Link to="/contact" className="w-32 flex justify-center p-3 border-[#23D997] hover:bg-[#23d997] text-center text-2xl text-white duration-200 border-2 md:p-[1rem 2rem]">
+          Hire Me
+        </Link>
+      </Description>
+      <Image className="PersonalPhoto">
+        <motion.img variants={photoAnim} initial="hidden" animate="show" className="p-6" src={Rup4} alt="Developer Img" />
+      </Image>
     </ About>
-    
+
   );
 }
 
