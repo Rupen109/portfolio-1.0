@@ -5,6 +5,8 @@ import BlackCodes from "../../../imgs/Bb.png";
 import Css from "../../../imgs/css-styles.png";
 import shreebai from "../../../imgs/shreebai.png"
 import dhinga from "../../../imgs/Dhinga.png";
+import dashboard from "../../../imgs/dashboard.png";
+import twit from "../../../imgs/twitt.png";
 import google from "../../../imgs/Google.png";
 import quiz from "../../../imgs/quizapp.png"
 import { motion } from 'framer-motion';
@@ -14,32 +16,31 @@ const MyProjects = () => {
 
   const projects = [
     {
-      title: "Strengthen reflex action",
+      title: "Twitt App",
       desc: "Photo booth fam kinfolk cold-pressed sriracha leggings ",
-      img: BlackCodes,
-      link: "https://www.towergame.app/",
+      img: twit,
+      link: "https://firebase-twitt-post.vercel.app/auth/Login",
     },
 
     {
-      title: "Strengthen reflex action",
+      title: "Dhinga Masti Game Site",
       desc: "a statement or account giving the characteristics of som",
-      img: Css,
-      link: "https://www.towergame.app/",
-    },
-
-    {
-      title: "Strengthen reflex action",
-      desc: "Description definition, a statement, picture in words ",
-      img: shreebai,
-      link: "https://www.towergame.app/",
-    },
-
-    {
-      title: "Strengthen reflex action",
-      desc: "Description definition, a statement, picture in words ",
       img: dhinga,
-      link: "https://www.towergame.app/",
+      link: "https://dhinga-masti.netlify.app/",
     },
+    {
+      title: "FullStack Dashboard",
+      desc: "Description definition, a statement, picture in words ",
+      img: dashboard,
+      link: "https://fullstack-dashboard.vercel.app/login",
+    },
+    {
+      title: "Black Codes",
+      desc: "Description definition, a statement, picture in words ",
+      img: BlackCodes,
+      link: "https://blackcodes.ml/",
+    },
+
 
     {
       title: "Strengthen reflex action",
@@ -66,7 +67,7 @@ const MyProjects = () => {
           {projects.map((projects, index) => (
             <ProjectsCard title={projects.title} key={index} desc={projects.desc} img={projects.img} link={projects.link} />
           ))}
-        </div>
+        </div> 
       </Container>
     </motion.div>
   );
