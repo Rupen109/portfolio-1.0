@@ -44,14 +44,14 @@ const MyProjects = () => {
 
     {
       title: "Strengthen reflex action",
-      desc: "Description definition, a statement, picture in words ",
+      desc: "google clone",
       img: google,
       link: "https://rupen109.github.io/googleClone/",
     },
 
     {
       title: "Quiz App",
-      desc: "Description definition, a statement, picture in words ",
+      desc: "quiz app for in javascript",
       img: quiz,
       link: "https://rupen109.github.io/quizapp/",
     },
