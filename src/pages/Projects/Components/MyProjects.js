@@ -50,10 +50,10 @@ const MyProjects = () => {
     },
 
     {
-      title: "Strengthen reflex action",
+      title: "Quiz App",
       desc: "Description definition, a statement, picture in words ",
       img: quiz,
-      link: "https://www.towergame.app/",
+      link: "https://rupen109.github.io/quizapp/",
     },
 
   ];
