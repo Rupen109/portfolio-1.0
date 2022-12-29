@@ -17,26 +17,26 @@ const MyProjects = () => {
   const projects = [
     {
       title: "Twitt App",
-      desc: "Photo booth fam kinfolk cold-pressed sriracha leggings ",
+      desc: "An App in which user can login and then share thoughts.",
       img: twit,
       link: "https://firebase-twitt-post.vercel.app/auth/Login",
     },
 
     {
       title: "Dhinga Masti Game Site",
-      desc: "a statement or account giving the characteristics of som",
+      desc: "Dhinga Masti is the app where kids play various game",
       img: dhinga,
       link: "https://dhinga-masti.netlify.app/",
     },
     {
       title: "FullStack Dashboard",
-      desc: "Description definition, a statement, picture in words ",
+      desc: "An FullStack dashboard where admin have database and allow user to login.",
       img: dashboard,
       link: "https://fullstack-dashboard.vercel.app/login",
     },
     {
       title: "Black Codes",
-      desc: "Description definition, a statement, picture in words ",
+      desc: "Black codes is the Website where various javascript projects ideas are there and codes are also available",
       img: BlackCodes,
       link: "https://blackcodes.ml/",
     },
