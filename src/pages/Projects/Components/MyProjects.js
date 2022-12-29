@@ -46,7 +46,7 @@ const MyProjects = () => {
       title: "Strengthen reflex action",
       desc: "Description definition, a statement, picture in words ",
       img: google,
-      link: "https://www.towergame.app/",
+      link: "https://rupen109.github.io/googleClone/",
     },
 
     {
