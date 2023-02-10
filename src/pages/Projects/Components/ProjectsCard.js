@@ -38,7 +38,6 @@ const ProjectsCard = ({title,desc,img,link}) => {
                   <a href={link} target="_blank" className="p-2 text-base text-center text-white duration-100 bg-[#23D997]  cursor-pointer md:w-32 font-text outline outline-[#23D997] outline-offset-4 focus:outline-offset-4 outline-offset-0">
                     Preview Project
                   </a>
-  
               </div>
             </div>
           </div>
