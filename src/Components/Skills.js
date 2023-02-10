@@ -36,7 +36,7 @@ const Skills = () => {
 
             </div> */}
               <section className="text-gray-600 body-font">
-                <div className="container px-5  py-4 md:mt-4 -mt-44 mx-auto">
+                <div className="container px-5  py-4 md:mt-4 -mt-60 mx-auto">
                   <div className="flex flex-wrap ">
                     <div className="p-6 md:p-0 scroll mx-auto  sm:w-1/4 w-5/6">
                       <div className="sm:h-3/4 bg-[#10101A] border-y-2 shadow-lg shadow-slate-400 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
