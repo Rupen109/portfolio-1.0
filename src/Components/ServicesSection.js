@@ -145,13 +145,13 @@ const Services = styled.div`
     min-height: 100vh;
    display: flex;
    flex-direction: row;
-   padding: 0rem 12rem 10rem;
+   padding: 0rem 12rem 1rem;
    color: white;
 
    @media (max-width:500px){
       display: flex;
       flex-direction: column;
-      margin-top: -17rem;
+      margin-top: -17rem;   
    }
 
    .description h2{
