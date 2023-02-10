@@ -150,6 +150,7 @@ const Services = styled.div`
 
    @media (max-width:500px){
       display: flex;
+         padding: 0rem 12rem 20rem;
       flex-direction: column;
       margin-top: -17rem;   
    }
